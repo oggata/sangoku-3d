@@ -1,0 +1,120 @@
+{
+    "android": {
+        "AdMob": {
+            "test": false, 
+            "ads": {
+                "gameover": {
+                    "type": "interstitial", 
+                    "id": "ca-app-pub-1329374026572143/1092476511"
+                }, 
+                "home": {
+                    "width": 300, 
+                    "type": "banner", 
+                    "id": "ca-app-pub-1329374026572143/2685130917", 
+                    "alignment": "bottom", 
+                    "height": 50
+                }
+            }
+        }, 
+        "sdkboxplay": {
+            "leaderboards": [
+                {
+                    "id": "CgkI0sux8sMWEAIQAA", 
+                    "name": "ldb1"
+                }
+            ], 
+            "achievements": [
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQAg", 
+                    "name": "ten-games"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQAw", 
+                    "name": "hunter"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQBA", 
+                    "name": "craftsman"
+                }, 
+                {
+                    "incremental": true, 
+                    "id": "CgkI0sux8sMWEAIQBQ", 
+                    "name": "incremental"
+                }
+            ], 
+            "debug": true, 
+            "connect_on_start": false, 
+            "show_achievement_notification": true
+        }
+    }, 
+    "ios": {
+        "AdMob": {
+            "test": false, 
+            "ads": {
+                "gameover": {
+                    "type": "interstitial", 
+                    "id": "ca-app-pub-0308249287821909/2368903747"
+                }, 
+                "home": {
+                    "width": 300, 
+                    "type": "banner", 
+                    "id": "ca-app-pub-1329374026572143/3847466511", 
+                    "alignment": "bottom", 
+                    "height": 50
+                }, 
+                "item_extension_5": {
+                    "type": "interstitial", 
+                    "id": "ca-app-pub-0308249287821909/4895064542"
+                }, 
+                "footer": {
+                    "width": 0, 
+                    "type": "banner", 
+                    "id": "ca-app-pub-0308249287821909/9892170548", 
+                    "alignment": "bottom", 
+                    "height": 0
+                }
+            }
+        }, 
+        "sdkboxplay": {
+            "leaderboards": [
+                {
+                    "id": "ldb1", 
+                    "name": "ldb1"
+                }
+            ], 
+            "achievements": [
+                {
+                    "incremental": false, 
+                    "id": "tengames", 
+                    "name": "ten-games"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "hunter", 
+                    "name": "hunter"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "craftsman", 
+                    "name": "craftsman"
+                }, 
+                {
+                    "incremental": true, 
+                    "id": "incremental", 
+                    "name": "incremental"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "hidden", 
+                    "name": "hidden"
+                }
+            ], 
+            "debug": true, 
+            "connect_on_start": false, 
+            "show_achievement_notification": true
+        }
+    }
+}
